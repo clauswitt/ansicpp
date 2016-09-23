@@ -18,12 +18,12 @@ target_compile_features(ansicpp PRIVATE cxx_range_for cxx_auto_type)
 
 
 
-add_executable (clear_screen_test test/clear_screen.cpp)
-target_link_libraries(clear_screen_test ${LIBRARY_NAME})
+add_executable (quick_test test/quick_test.cpp)
+target_link_libraries(quick_test ${LIBRARY_NAME})
 
 
 enable_testing()
-add_test(clear_screen_test clear_screen_test)
+add_test(quick_test quick_test)
 
 
 
