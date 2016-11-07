@@ -1,6 +1,5 @@
 #ifndef ANSICPP_ANSICPP
 #define ANSICPP_ANSICPP 1
-#include <vector>
 #include <string>
 namespace ansicpp {
 
