@@ -7,3 +7,7 @@ copied around - so this may not be super performant.
 
 This file has no dependencies (except std::string) but needs a c++11 compliant compiler.
 
+## Example
+
+Look in [examples directory](examples)
+
