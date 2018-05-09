@@ -1,7 +1,12 @@
 #include "ansicpp.hpp"
 #include <string>
 #include <iostream>
-#include <unistd.h>
+#include <chrono>      // std::chrono::seconds(secs);
+#include <thread>      // std::this_thread::sleep_for
+inline void sleep(int secs) 
+{
+  std::this_thread::sleep_for(std::chrono::seconds(secs));
+}
 
 using namespace ansicpp;
 
